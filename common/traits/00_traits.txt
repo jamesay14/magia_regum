@@ -1,0 +1,60 @@
+﻿# PHYSICAL MAGIC TRAITS
+magic_1 = {
+	index = 501
+	
+	
+	birth = 1
+	random_creation = 1
+
+	group = magic
+	level = 1
+
+	ai_rationality = very_high_positive_ai_value
+	
+	genetic = yes
+	good = yes
+	physical = yes
+	
+
+	desc = "Magic Level 1"
+}
+
+magic_2 = {
+	index = 502
+	
+	
+	birth = .5
+	random_creation = .5
+
+	group = magic
+	level = 2
+
+	ai_rationality = very_high_positive_ai_value
+	
+	genetic = yes
+	good = yes
+	physical = yes
+	
+
+	desc = "Magic Level 2"
+}
+
+magic_3 = {
+	index = 503
+	
+	
+	birth = .125
+	random_creation = .125
+
+	group = magic
+	level = 3
+
+	ai_rationality = very_high_positive_ai_value
+	
+	genetic = yes
+	good = yes
+	physical = yes
+	
+
+	desc = "Magic Level 3"
+}
