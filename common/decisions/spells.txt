@@ -1,0 +1,20 @@
+﻿cast_spells = {
+	picture = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
+
+	is_shown = {
+		debug_only = yes
+	}
+
+	is_valid = {
+		OR = {
+			has_trait = magic_1
+			has_trait = magic_2
+			has_trait = magic_3
+		}
+	}
+	effect = {
+		trigger_event = { id = cast_spell_event }
+	}
+
+	ai_check_interval = 60
+}
