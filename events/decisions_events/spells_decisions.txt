@@ -1,0 +1,30 @@
+cast_spell_event = {
+	type = character_event
+	title = cast_spell.t
+
+	theme = learning
+
+	left_portrait = {
+		character = root
+	}
+
+	option = {
+		name = cast_spell1.d
+	}
+
+	option = {
+		name = cast_spell1.d
+	}
+
+	option = {
+		name = cast_spell3.d
+	}
+
+	option = {
+		name = cast_spell4.d
+	}
+
+	option = {
+		name = cast_spell5.d
+	}
+}

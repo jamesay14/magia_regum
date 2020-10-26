@@ -1,3 +1,8 @@
 ﻿l_english:
  cast_spell.t:0 "Open your spellbook"
  cast_spell.desc:0 "Take a look"
+ cast_spell1.d:0 "Cast Spell 1"
+ cast_spell2.d:0 "Cast Spell 2"
+ cast_spell3.d:0 "Cast Spell 3"
+ cast_spell4.d:0 "Cast Spell 4"
+ cast_spell5.d:0 "Cast Spell 5"

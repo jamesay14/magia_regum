@@ -13,8 +13,12 @@
 		}
 	}
 	effect = {
-		trigger_event = { id = cast_spell_event }
+		trigger_event = cast_spell_event
 	}
 
 	ai_check_interval = 60
+
+	ai_will_do = {
+		base=0
+	}
 }

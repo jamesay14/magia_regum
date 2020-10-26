@@ -1,0 +1,19 @@
+Creating a decicion: \common\decisions
+	picture = link to picture from \mod\MOD_FOLDER directory
+	ai_check_interval =
+		how many months will the AI check to do this task. you can also set a cooldown as another
+		line in the decision's code
+	ai_will_do =
+		you should set the base to zero. From there you can modify it with a wide variety of values that I barely understand
+		https://ck3.paradoxwikis.com/Triggers for a more complete list of values. They are a bit opaque but presumably
+		you can just assume by the name
+	effect = you probably want this to trigger an event so you just have to make a txt file in the mod/events subfolder with a name triggerable from there
+
+creating an event: \events
+	type = determines the root of the event's scope. You generally want this to be character_event
+	portraits:
+		you can set up to five portraits to be visible, left_portrait, right_, lower_left_, lower_center_, lower_right_portrait
+		each takes a character and an animation. if the event is a character_event type then "root" will be the PC
+	options:
+		basically, create an option = {} tag for each clickable choice you want the player to have. Inside these you can put a name and a tooltip localization ids and various values it will increase/decrease/otherwise effect. I am unsure how many you can have max
+		inside you may as well want to put ai_chance which functions very similar to ai_will_do
